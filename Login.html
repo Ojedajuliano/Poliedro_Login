@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Register.css">
+    <link rel="stylesheet" href="Login.css">
+
+</head>
+<body>
+    <form class="formLogin">
+        <div class="titleLogin"></div>
+        <div>
+            <div >Email</div>
+            <input type="text" value="" class="emailLogin" placeholder="" >
+        </div>
+        <div>
+            <div>Contraseña</div>
+            <input type="password" value="" class="passLogin" placeholder="">
+        </div>
+        <div class="buttons_login_container">
+            <div><input class="buttonLogin1" type="button" value="Iniciar sesion" onclick="IniciarSesion()"></div>
+            <div ><input class="buttonLogin2" type="button" value="Registrarse" onclick="cambioR()"></div>
+        </div>
+    </form >
+    <form class="formRegister">
+        <div class="titleRegister"></div>
+        <div>
+            <div>Nombre</div>
+            <input class="nameRegister" type="text" value="" placeholder="nombre">
+        </div>
+        <div>
+            <div >Apellido</div>
+            <input type="text" value="" class="apellidoRegister" placeholder="apellido">
+        </div>
+        <div>
+            <div >Email</div>
+            <input type="text" value="" class="mailRegister" placeholder="ejemplo@correo.com">
+        </div>
+        <div>
+            <div >Contraseña</div>
+            <input type="password" value="" class="passRegister" placeholder="contraseña123">
+        </div>
+        <div class="boton">
+             <div><input type="button" value="Registrarse" class="buttonRegister2" onclick="registrarse()" ></div>
+            <div><input type="button" value="Iniciar sesion" class="buttonRegister1" onclick="cambioR()"></div>
+        </div>
+    </form>
+</body>
+<script src="scripts.js"></script>
+</html>
